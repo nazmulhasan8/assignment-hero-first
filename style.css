@@ -14,13 +14,13 @@ h2 {
   width: 100%;
   height: 669px;
   background-size: 100% 100%;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 700;
   margin-bottom: 100px;
 }
 .banner-text-centered {
   text-align: center;
-  color: white;
+  color: rgb(255, 255, 255);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -40,22 +40,22 @@ h2 {
 }
 .link-button {
   text-decoration: none;
-  background-image: linear-gradient(orange, tomato);
+  background-image: linear-gradient(rgb(255, 165, 0), rgb(255, 99, 71));
   padding: 10px 40px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 700;
   border-radius: 5px;
 }
 .subscribe-button {
   text-decoration: none;
-  background-color: tomato;
+  background-color: rgb(255, 99, 71);
   padding: 10px 40px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 700;
   border-radius: 5px;
 }
 input {
-  background-color: gray;
+  background-color: rgb(128, 128, 128);
   padding: 10px 40px;
   font-weight: 700;
   border-radius: 5px;
@@ -65,13 +65,14 @@ form {
   padding-top: 100px;
 }
 ::placeholder {
-  color: white;
+  color: rgb(255, 255, 255);
   opacity: 1;
 }
 .email-area {
   margin-bottom: 150px;
 }
-.email-area p {
+.email-area h1,
+p {
   margin-top: -20px;
   margin-bottom: 50px;
 }
@@ -87,7 +88,7 @@ form {
   width: 60%;
   height: 350px;
   background-size: 100% 100%;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 700;
   margin-bottom: 50px;
   justify-content: center;
@@ -134,8 +135,9 @@ form {
   background-position: right;
 }
 .text-effect {
-  color: white;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(0, 0, 255),
+    0 0 5px rgb(0, 0, 139);
 }
 .donate-plan-item {
   margin-left: 1%;
@@ -147,9 +149,15 @@ form {
   border-radius: 5px;
   padding-left: 2%;
   padding-top: 5%;
+  text-align: left;
+}
+.donate-plan-item h3,
+p {
+  padding-bottom: 15px;
+  padding-right: 10px;
 }
 .hr1 {
-  color: gray;
+  color: rgb(128, 128, 128);
 }
 hr {
   width: 71%;
@@ -176,14 +184,16 @@ hr {
 .be-humble {
   font-family: "Lobster", cursive;
   color: rgb(216, 43, 43);
+  font-size: 25px;
 }
 .footer-p {
   color: rgb(255, 255, 255);
+  font-size: 10px;
 }
 footer {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   text-align: center;
-  line-height: 15px;
+  line-height: 40px;
   background-color: rgb(11, 13, 23);
 }
